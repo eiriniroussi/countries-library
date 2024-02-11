@@ -35,7 +35,7 @@ public class deserializeData {
 				countryInfo[] result = getAPIData(apiType,"","https://restcountries.com");
 				for (countryInfo country : result) {
 					
-					System.out.print(country);;
+					System.out.print(country);
 
 
 				System.out.println("---------------------------");
@@ -82,7 +82,7 @@ public class deserializeData {
 				
 					for (countryInfo country : result) {
 						
-						System.out.print(country);;
+						System.out.print(country);
 						System.out.println("---------------------------");
 					}
 					return result;
@@ -105,7 +105,7 @@ public class deserializeData {
 				
 					for (countryInfo country : result) {
 						
-						System.out.print(country);;
+						System.out.print(country);
 						System.out.println("---------------------------");
 					}
 					return result;

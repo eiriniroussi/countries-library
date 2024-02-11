@@ -123,9 +123,9 @@ public class countryInfo {
 	public String toString() {
 		return "CountriesInfo" + "\n" +
 				"Country: " + name + "\n" +
-				"Capital: " + capital +"\n" +
+				"Capital: " + listToString(capital) +"\n" +
 				"Currency: " + formatCurrencies()+ "\n" + 
-				"Continents: " + continents + "\n" + 
+				"Continents: " + listToString(continents) + "\n" + 
 				"Population: " + population + "\n" ;
 	}
 	
@@ -142,6 +142,27 @@ public class countryInfo {
 	        }
 	        return sb.toString();
 	    }
+	   
+	   
+	   private String listToString(List<String> list) {
+	        if (list == null || list.isEmpty()) {
+	            return "Not available";
+	        }
+
+	        StringBuilder sb = new StringBuilder();
+	        for (String item : list) {
+	            if (sb.length() > 0) {
+	                sb.append(", "); // Add a comma separator between items
+	            }
+	            sb.append(item);
+	        }
+	        return sb.toString();
+	    }
+	   
+
+	   
+
+
 
 
 	
