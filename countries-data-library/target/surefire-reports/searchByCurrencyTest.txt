@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: searchByCurrencyTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.445 s -- in searchByCurrencyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 s -- in searchByCurrencyTest

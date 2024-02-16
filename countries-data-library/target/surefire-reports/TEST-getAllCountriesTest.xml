@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="getAllCountriesTest" time="0.873" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="getAllCountriesTest" time="1.06" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire/surefirebooter-20240211192709090_3.jar /Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire 2024-02-11T19-27-09_021-jvmRun1 surefire-20240211192709090_1tmp surefire_0-20240211192709090_2tmp"/>
+    <property name="sun.java.command" value="/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire/surefirebooter-20240215224655617_3.jar /Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire 2024-02-15T22-46-55_444-jvmRun1 surefire-20240215224655617_1tmp surefire_0-20240215224655617_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/test-classes:/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/classes:/Users/eiriniroussi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/eiriniroussi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/eiriniroussi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/eiriniroussi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/eiriniroussi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/eiriniroussi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/eiriniroussi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/eiriniroussi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/eiriniroussi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/eiriniroussi/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/eiriniroussi/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire/surefirebooter-20240211192709090_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/eiriniroussi/eclipse-workspace/countries-data-library/target/surefire/surefirebooter-20240215224655617_3.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -64,1755 +64,1755 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testSearchAllCountries" classname="getAllCountriesTest" time="0.855">
+  <testcase name="testSearchAllCountries" classname="getAllCountriesTest" time="1.045">
     <system-out><![CDATA[CountriesInfo
 Country: Cyprus
-Capital: [Nicosia]
+Capital: Nicosia
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 1207361
 ---------------------------
 CountriesInfo
 Country: Eritrea
-Capital: [Asmara]
+Capital: Asmara
 Currency: Eritrean nakfa
-Continents: [Africa]
+Continents: Africa
 Population: 5352000
 ---------------------------
 CountriesInfo
 Country: Liberia
-Capital: [Monrovia]
+Capital: Monrovia
 Currency: Liberian dollar
-Continents: [Africa]
+Continents: Africa
 Population: 5057677
 ---------------------------
 CountriesInfo
 Country: Bermuda
-Capital: [Hamilton]
+Capital: Hamilton
 Currency: Bermudian dollar
-Continents: [North America]
+Continents: North America
 Population: 63903
 ---------------------------
 CountriesInfo
 Country: Vatican City
-Capital: [Vatican City]
+Capital: Vatican City
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 451
 ---------------------------
 CountriesInfo
 Country: Cook Islands
-Capital: [Avarua]
+Capital: Avarua
 Currency: Cook Islands dollar, New Zealand dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 18100
 ---------------------------
 CountriesInfo
 Country: Somalia
-Capital: [Mogadishu]
+Capital: Mogadishu
 Currency: Somali shilling
-Continents: [Africa]
+Continents: Africa
 Population: 15893219
 ---------------------------
 CountriesInfo
 Country: Zambia
-Capital: [Lusaka]
+Capital: Lusaka
 Currency: Zambian kwacha
-Continents: [Africa]
+Continents: Africa
 Population: 18383956
 ---------------------------
 CountriesInfo
 Country: Venezuela
-Capital: [Caracas]
+Capital: Caracas
 Currency: Venezuelan bolívar soberano
-Continents: [South America]
+Continents: South America
 Population: 28435943
 ---------------------------
 CountriesInfo
 Country: Turkmenistan
-Capital: [Ashgabat]
+Capital: Ashgabat
 Currency: Turkmenistan manat
-Continents: [Asia]
+Continents: Asia
 Population: 6031187
 ---------------------------
 CountriesInfo
 Country: Albania
-Capital: [Tirana]
+Capital: Tirana
 Currency: Albanian lek
-Continents: [Europe]
+Continents: Europe
 Population: 2837743
 ---------------------------
 CountriesInfo
 Country: Croatia
-Capital: [Zagreb]
+Capital: Zagreb
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 4047200
 ---------------------------
 CountriesInfo
 Country: United Kingdom
-Capital: [London]
+Capital: London
 Currency: British pound
-Continents: [Europe]
+Continents: Europe
 Population: 67215293
 ---------------------------
 CountriesInfo
 Country: Sudan
-Capital: [Khartoum]
+Capital: Khartoum
 Currency: Sudanese pound
-Continents: [Africa]
+Continents: Africa
 Population: 43849269
 ---------------------------
 CountriesInfo
 Country: Timor-Leste
-Capital: [Dili]
+Capital: Dili
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 1318442
 ---------------------------
 CountriesInfo
 Country: Republic of the Congo
-Capital: [Brazzaville]
+Capital: Brazzaville
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 5657000
 ---------------------------
 CountriesInfo
 Country: Azerbaijan
-Capital: [Baku]
+Capital: Baku
 Currency: Azerbaijani manat
-Continents: [Europe, Asia]
+Continents: Europe, Asia
 Population: 10110116
 ---------------------------
 CountriesInfo
 Country: Kenya
-Capital: [Nairobi]
+Capital: Nairobi
 Currency: Kenyan shilling
-Continents: [Africa]
+Continents: Africa
 Population: 53771300
 ---------------------------
 CountriesInfo
 Country: American Samoa
-Capital: [Pago Pago]
+Capital: Pago Pago
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 55197
 ---------------------------
 CountriesInfo
 Country: Ivory Coast
-Capital: [Yamoussoukro]
+Capital: Yamoussoukro
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 26378275
 ---------------------------
 CountriesInfo
 Country: Senegal
-Capital: [Dakar]
+Capital: Dakar
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 16743930
 ---------------------------
 CountriesInfo
 Country: Vietnam
-Capital: [Hanoi]
+Capital: Hanoi
 Currency: Vietnamese đồng
-Continents: [Asia]
+Continents: Asia
 Population: 97338583
 ---------------------------
 CountriesInfo
 Country: El Salvador
-Capital: [San Salvador]
+Capital: San Salvador
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 6486201
 ---------------------------
 CountriesInfo
 Country: Afghanistan
-Capital: [Kabul]
+Capital: Kabul
 Currency: Afghan afghani
-Continents: [Asia]
+Continents: Asia
 Population: 40218234
 ---------------------------
 CountriesInfo
 Country: Saint Martin
-Capital: [Marigot]
+Capital: Marigot
 Currency: Euro
-Continents: [North America]
+Continents: North America
 Population: 38659
 ---------------------------
 CountriesInfo
 Country: Latvia
-Capital: [Riga]
+Capital: Riga
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 1901548
 ---------------------------
 CountriesInfo
 Country: Guatemala
-Capital: [Guatemala City]
+Capital: Guatemala City
 Currency: Guatemalan quetzal
-Continents: [North America]
+Continents: North America
 Population: 16858333
 ---------------------------
 CountriesInfo
 Country: Kuwait
-Capital: [Kuwait City]
+Capital: Kuwait City
 Currency: Kuwaiti dinar
-Continents: [Asia]
+Continents: Asia
 Population: 4270563
 ---------------------------
 CountriesInfo
 Country: São Tomé and Príncipe
-Capital: [São Tomé]
+Capital: São Tomé
 Currency: São Tomé and Príncipe dobra
-Continents: [Africa]
+Continents: Africa
 Population: 219161
 ---------------------------
 CountriesInfo
 Country: Kyrgyzstan
-Capital: [Bishkek]
+Capital: Bishkek
 Currency: Kyrgyzstani som
-Continents: [Asia]
+Continents: Asia
 Population: 6591600
 ---------------------------
 CountriesInfo
 Country: Poland
-Capital: [Warsaw]
+Capital: Warsaw
 Currency: Polish złoty
-Continents: [Europe]
+Continents: Europe
 Population: 37950802
 ---------------------------
 CountriesInfo
 Country: Guam
-Capital: [Hagåtña]
+Capital: Hagåtña
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 168783
 ---------------------------
 CountriesInfo
 Country: Ghana
-Capital: [Accra]
+Capital: Accra
 Currency: Ghanaian cedi
-Continents: [Africa]
+Continents: Africa
 Population: 31072945
 ---------------------------
 CountriesInfo
 Country: Lithuania
-Capital: [Vilnius]
+Capital: Vilnius
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 2794700
 ---------------------------
 CountriesInfo
 Country: Armenia
-Capital: [Yerevan]
+Capital: Yerevan
 Currency: Armenian dram
-Continents: [Asia]
+Continents: Asia
 Population: 2963234
 ---------------------------
 CountriesInfo
 Country: Jersey
-Capital: [Saint Helier]
+Capital: Saint Helier
 Currency: British pound, Jersey pound
-Continents: [Europe]
+Continents: Europe
 Population: 100800
 ---------------------------
 CountriesInfo
 Country: Grenada
-Capital: [St. George's]
+Capital: St. George's
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 112519
 ---------------------------
 CountriesInfo
 Country: Tajikistan
-Capital: [Dushanbe]
+Capital: Dushanbe
 Currency: Tajikistani somoni
-Continents: [Asia]
+Continents: Asia
 Population: 9537642
 ---------------------------
 CountriesInfo
 Country: Ethiopia
-Capital: [Addis Ababa]
+Capital: Addis Ababa
 Currency: Ethiopian birr
-Continents: [Africa]
+Continents: Africa
 Population: 114963583
 ---------------------------
 CountriesInfo
 Country: Western Sahara
-Capital: [El Aaiún]
+Capital: El Aaiún
 Currency: Algerian dinar, Moroccan dirham, Mauritanian ouguiya
-Continents: [Africa]
+Continents: Africa
 Population: 510713
 ---------------------------
 CountriesInfo
 Country: Morocco
-Capital: [Rabat]
+Capital: Rabat
 Currency: Moroccan dirham
-Continents: [Africa]
+Continents: Africa
 Population: 36910558
 ---------------------------
 CountriesInfo
 Country: Puerto Rico
-Capital: [San Juan]
+Capital: San Juan
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 3194034
 ---------------------------
 CountriesInfo
 Country: Christmas Island
-Capital: [Flying Fish Cove]
+Capital: Flying Fish Cove
 Currency: Australian dollar
-Continents: [Asia]
+Continents: Asia
 Population: 2072
 ---------------------------
 CountriesInfo
 Country: New Zealand
-Capital: [Wellington]
+Capital: Wellington
 Currency: New Zealand dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 5084300
 ---------------------------
 CountriesInfo
 Country: Brunei
-Capital: [Bandar Seri Begawan]
+Capital: Bandar Seri Begawan
 Currency: Brunei dollar, Singapore dollar
-Continents: [Asia]
+Continents: Asia
 Population: 437483
 ---------------------------
 CountriesInfo
 Country: French Guiana
-Capital: [Cayenne]
+Capital: Cayenne
 Currency: Euro
-Continents: [South America]
+Continents: South America
 Population: 254541
 ---------------------------
 CountriesInfo
 Country: Niue
-Capital: [Alofi]
+Capital: Alofi
 Currency: New Zealand dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 1470
 ---------------------------
 CountriesInfo
 Country: Romania
-Capital: [Bucharest]
+Capital: Bucharest
 Currency: Romanian leu
-Continents: [Europe]
+Continents: Europe
 Population: 19286123
 ---------------------------
 CountriesInfo
 Country: Svalbard and Jan Mayen
-Capital: [Longyearbyen]
+Capital: Longyearbyen
 Currency: krone
-Continents: [Europe]
+Continents: Europe
 Population: 2562
 ---------------------------
 CountriesInfo
 Country: Belarus
-Capital: [Minsk]
+Capital: Minsk
 Currency: Belarusian ruble
-Continents: [Europe]
+Continents: Europe
 Population: 9398861
 ---------------------------
 CountriesInfo
 Country: Panama
-Capital: [Panama City]
+Capital: Panama City
 Currency: Panamanian balboa, United States dollar
-Continents: [North America]
+Continents: North America
 Population: 4314768
 ---------------------------
 CountriesInfo
 Country: Cameroon
-Capital: [Yaoundé]
+Capital: Yaoundé
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 26545864
 ---------------------------
 CountriesInfo
 Country: Czechia
-Capital: [Prague]
+Capital: Prague
 Currency: Czech koruna
-Continents: [Europe]
+Continents: Europe
 Population: 10698896
 ---------------------------
 CountriesInfo
 Country: Saint Barthélemy
-Capital: [Gustavia]
+Capital: Gustavia
 Currency: Euro
-Continents: [North America]
+Continents: North America
 Population: 4255
 ---------------------------
 CountriesInfo
 Country: Greece
-Capital: [Athens]
+Capital: Athens
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 10715549
 ---------------------------
 CountriesInfo
 Country: Mali
-Capital: [Bamako]
+Capital: Bamako
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 20250834
 ---------------------------
 CountriesInfo
 Country: Martinique
-Capital: [Fort-de-France]
+Capital: Fort-de-France
 Currency: Euro
-Continents: [North America]
+Continents: North America
 Population: 378243
 ---------------------------
 CountriesInfo
 Country: France
-Capital: [Paris]
+Capital: Paris
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 67391582
 ---------------------------
 CountriesInfo
 Country: Pakistan
-Capital: [Islamabad]
+Capital: Islamabad
 Currency: Pakistani rupee
-Continents: [Asia]
+Continents: Asia
 Population: 220892331
 ---------------------------
 CountriesInfo
 Country: Peru
-Capital: [Lima]
+Capital: Lima
 Currency: Peruvian sol
-Continents: [South America]
+Continents: South America
 Population: 32971846
 ---------------------------
 CountriesInfo
 Country: Barbados
-Capital: [Bridgetown]
+Capital: Bridgetown
 Currency: Barbadian dollar
-Continents: [North America]
+Continents: North America
 Population: 287371
 ---------------------------
 CountriesInfo
 Country: Greenland
-Capital: [Nuuk]
+Capital: Nuuk
 Currency: krone
-Continents: [North America]
+Continents: North America
 Population: 56367
 ---------------------------
 CountriesInfo
 Country: Saint Pierre and Miquelon
-Capital: [Saint-Pierre]
+Capital: Saint-Pierre
 Currency: Euro
-Continents: [North America]
+Continents: North America
 Population: 6069
 ---------------------------
 CountriesInfo
 Country: Chad
-Capital: [N'Djamena]
+Capital: N'Djamena
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 16425859
 ---------------------------
 CountriesInfo
 Country: Hungary
-Capital: [Budapest]
+Capital: Budapest
 Currency: Hungarian forint
-Continents: [Europe]
+Continents: Europe
 Population: 9749763
 ---------------------------
 CountriesInfo
 Country: Comoros
-Capital: [Moroni]
+Capital: Moroni
 Currency: Comorian franc
-Continents: [Africa]
+Continents: Africa
 Population: 869595
 ---------------------------
 CountriesInfo
 Country: Bangladesh
-Capital: [Dhaka]
+Capital: Dhaka
 Currency: Bangladeshi taka
-Continents: [Asia]
+Continents: Asia
 Population: 164689383
 ---------------------------
 CountriesInfo
 Country: Tokelau
-Capital: [Fakaofo]
+Capital: Fakaofo
 Currency: New Zealand dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 1411
 ---------------------------
 CountriesInfo
 Country: Fiji
-Capital: [Suva]
+Capital: Suva
 Currency: Fijian dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 896444
 ---------------------------
 CountriesInfo
 Country: China
-Capital: [Beijing]
+Capital: Beijing
 Currency: Chinese yuan
-Continents: [Asia]
+Continents: Asia
 Population: 1402112000
 ---------------------------
 CountriesInfo
 Country: Colombia
-Capital: [Bogotá]
+Capital: Bogotá
 Currency: Colombian peso
-Continents: [South America]
+Continents: South America
 Population: 50882884
 ---------------------------
 CountriesInfo
 Country: British Virgin Islands
-Capital: [Road Town]
+Capital: Road Town
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 30237
 ---------------------------
 CountriesInfo
 Country: Algeria
-Capital: [Algiers]
+Capital: Algiers
 Currency: Algerian dinar
-Continents: [Africa]
+Continents: Africa
 Population: 44700000
 ---------------------------
 CountriesInfo
 Country: Maldives
-Capital: [Malé]
+Capital: Malé
 Currency: Maldivian rufiyaa
-Continents: [Asia]
+Continents: Asia
 Population: 540542
 ---------------------------
 CountriesInfo
 Country: Malaysia
-Capital: [Kuala Lumpur]
+Capital: Kuala Lumpur
 Currency: Malaysian ringgit
-Continents: [Asia]
+Continents: Asia
 Population: 32365998
 ---------------------------
 CountriesInfo
 Country: Cayman Islands
-Capital: [George Town]
+Capital: George Town
 Currency: Cayman Islands dollar
-Continents: [North America]
+Continents: North America
 Population: 65720
 ---------------------------
 CountriesInfo
 Country: Spain
-Capital: [Madrid]
+Capital: Madrid
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 47351567
 ---------------------------
 CountriesInfo
 Country: Ireland
-Capital: [Dublin]
+Capital: Dublin
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 4994724
 ---------------------------
 CountriesInfo
 Country: Estonia
-Capital: [Tallinn]
+Capital: Tallinn
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 1331057
 ---------------------------
 CountriesInfo
 Country: Paraguay
-Capital: [Asunción]
+Capital: Asunción
 Currency: Paraguayan guaraní
-Continents: [South America]
+Continents: South America
 Population: 7132530
 ---------------------------
 CountriesInfo
 Country: Uruguay
-Capital: [Montevideo]
+Capital: Montevideo
 Currency: Uruguayan peso
-Continents: [South America]
+Continents: South America
 Population: 3473727
 ---------------------------
 CountriesInfo
 Country: South Africa
-Capital: [Pretoria, Bloemfontein, Cape Town]
+Capital: Pretoria, Bloemfontein, Cape Town
 Currency: South African rand
-Continents: [Africa]
+Continents: Africa
 Population: 59308690
 ---------------------------
 CountriesInfo
 Country: Saint Lucia
-Capital: [Castries]
+Capital: Castries
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 183629
 ---------------------------
 CountriesInfo
 Country: Vanuatu
-Capital: [Port Vila]
+Capital: Port Vila
 Currency: Vanuatu vatu
-Continents: [Oceania]
+Continents: Oceania
 Population: 307150
 ---------------------------
 CountriesInfo
 Country: Finland
-Capital: [Helsinki]
+Capital: Helsinki
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 5530719
 ---------------------------
 CountriesInfo
 Country: Sweden
-Capital: [Stockholm]
+Capital: Stockholm
 Currency: Swedish krona
-Continents: [Europe]
+Continents: Europe
 Population: 10353442
 ---------------------------
 CountriesInfo
 Country: British Indian Ocean Territory
-Capital: [Diego Garcia]
+Capital: Diego Garcia
 Currency: United States dollar
-Continents: [Asia]
+Continents: Asia
 Population: 3000
 ---------------------------
 CountriesInfo
 Country: Lebanon
-Capital: [Beirut]
+Capital: Beirut
 Currency: Lebanese pound
-Continents: [Asia]
+Continents: Asia
 Population: 6825442
 ---------------------------
 CountriesInfo
 Country: United States
-Capital: [Washington, D.C.]
+Capital: Washington, D.C.
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 329484123
 ---------------------------
 CountriesInfo
 Country: Chile
-Capital: [Santiago]
+Capital: Santiago
 Currency: Chilean peso
-Continents: [South America]
+Continents: South America
 Population: 19116209
 ---------------------------
 CountriesInfo
 Country: Norfolk Island
-Capital: [Kingston]
+Capital: Kingston
 Currency: Australian dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 2302
 ---------------------------
 CountriesInfo
 Country: Montserrat
-Capital: [Plymouth]
+Capital: Plymouth
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 4922
 ---------------------------
 CountriesInfo
 Country: Australia
-Capital: [Canberra]
+Capital: Canberra
 Currency: Australian dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 25687041
 ---------------------------
 CountriesInfo
 Country: Belize
-Capital: [Belmopan]
+Capital: Belmopan
 Currency: Belize dollar
-Continents: [North America]
+Continents: North America
 Population: 397621
 ---------------------------
 CountriesInfo
 Country: Guyana
-Capital: [Georgetown]
+Capital: Georgetown
 Currency: Guyanese dollar
-Continents: [South America]
+Continents: South America
 Population: 786559
 ---------------------------
 CountriesInfo
 Country: Mongolia
-Capital: [Ulan Bator]
+Capital: Ulan Bator
 Currency: Mongolian tögrög
-Continents: [Asia]
+Continents: Asia
 Population: 3278292
 ---------------------------
 CountriesInfo
 Country: Tuvalu
-Capital: [Funafuti]
+Capital: Funafuti
 Currency: Australian dollar, Tuvaluan dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 11792
 ---------------------------
 CountriesInfo
 Country: Dominican Republic
-Capital: [Santo Domingo]
+Capital: Santo Domingo
 Currency: Dominican peso
-Continents: [North America]
+Continents: North America
 Population: 10847904
 ---------------------------
 CountriesInfo
 Country: Equatorial Guinea
-Capital: [Malabo]
+Capital: Malabo
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 1402985
 ---------------------------
 CountriesInfo
 Country: Saint Kitts and Nevis
-Capital: [Basseterre]
+Capital: Basseterre
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 53192
 ---------------------------
 CountriesInfo
 Country: Bolivia
-Capital: [Sucre]
+Capital: Sucre
 Currency: Bolivian boliviano
-Continents: [South America]
+Continents: South America
 Population: 11673029
 ---------------------------
 CountriesInfo
 Country: Nepal
-Capital: [Kathmandu]
+Capital: Kathmandu
 Currency: Nepalese rupee
-Continents: [Asia]
+Continents: Asia
 Population: 29136808
 ---------------------------
 CountriesInfo
 Country: French Southern and Antarctic Lands
-Capital: [Port-aux-Français]
+Capital: Port-aux-Français
 Currency: Euro
-Continents: [Antarctica]
+Continents: Antarctica
 Population: 400
 ---------------------------
 CountriesInfo
 Country: Taiwan
-Capital: [Taipei]
+Capital: Taipei
 Currency: New Taiwan dollar
-Continents: [Asia]
+Continents: Asia
 Population: 23503349
 ---------------------------
 CountriesInfo
 Country: Benin
-Capital: [Porto-Novo]
+Capital: Porto-Novo
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 12123198
 ---------------------------
 CountriesInfo
 Country: Bulgaria
-Capital: [Sofia]
+Capital: Sofia
 Currency: Bulgarian lev
-Continents: [Europe]
+Continents: Europe
 Population: 6927288
 ---------------------------
 CountriesInfo
 Country: Moldova
-Capital: [Chișinău]
+Capital: Chișinău
 Currency: Moldovan leu
-Continents: [Europe]
+Continents: Europe
 Population: 2617820
 ---------------------------
 CountriesInfo
 Country: Isle of Man
-Capital: [Douglas]
+Capital: Douglas
 Currency: British pound, Manx pound
-Continents: [Europe]
+Continents: Europe
 Population: 85032
 ---------------------------
 CountriesInfo
 Country: Bhutan
-Capital: [Thimphu]
+Capital: Thimphu
 Currency: Bhutanese ngultrum, Indian rupee
-Continents: [Asia]
+Continents: Asia
 Population: 771612
 ---------------------------
 CountriesInfo
 Country: Cambodia
-Capital: [Phnom Penh]
+Capital: Phnom Penh
 Currency: Cambodian riel, United States dollar
-Continents: [Asia]
+Continents: Asia
 Population: 16718971
 ---------------------------
 CountriesInfo
 Country: Antigua and Barbuda
-Capital: [Saint John's]
+Capital: Saint John's
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 97928
 ---------------------------
 CountriesInfo
 Country: Haiti
-Capital: [Port-au-Prince]
+Capital: Port-au-Prince
 Currency: Haitian gourde
-Continents: [North America]
+Continents: North America
 Population: 11402533
 ---------------------------
 CountriesInfo
 Country: Cape Verde
-Capital: [Praia]
+Capital: Praia
 Currency: Cape Verdean escudo
-Continents: [Africa]
+Continents: Africa
 Population: 555988
 ---------------------------
 CountriesInfo
 Country: Georgia
-Capital: [Tbilisi]
+Capital: Tbilisi
 Currency: lari
-Continents: [Asia]
+Continents: Asia
 Population: 3714000
 ---------------------------
 CountriesInfo
 Country: Burundi
-Capital: [Gitega]
+Capital: Gitega
 Currency: Burundian franc
-Continents: [Africa]
+Continents: Africa
 Population: 11890781
 ---------------------------
 CountriesInfo
 Country: Bahamas
-Capital: [Nassau]
+Capital: Nassau
 Currency: Bahamian dollar, United States dollar
-Continents: [North America]
+Continents: North America
 Population: 393248
 ---------------------------
 CountriesInfo
 Country: Mauritius
-Capital: [Port Louis]
+Capital: Port Louis
 Currency: Mauritian rupee
-Continents: [Africa]
+Continents: Africa
 Population: 1265740
 ---------------------------
 CountriesInfo
 Country: Libya
-Capital: [Tripoli]
+Capital: Tripoli
 Currency: Libyan dinar
-Continents: [Africa]
+Continents: Africa
 Population: 6871287
 ---------------------------
 CountriesInfo
 Country: Malawi
-Capital: [Lilongwe]
+Capital: Lilongwe
 Currency: Malawian kwacha
-Continents: [Africa]
+Continents: Africa
 Population: 19129955
 ---------------------------
 CountriesInfo
 Country: Mexico
-Capital: [Mexico City]
+Capital: Mexico City
 Currency: Mexican peso
-Continents: [North America]
+Continents: North America
 Population: 128932753
 ---------------------------
 CountriesInfo
 Country: Eswatini
-Capital: [Mbabane]
+Capital: Mbabane
 Currency: Swazi lilangeni, South African rand
-Continents: [Africa]
+Continents: Africa
 Population: 1160164
 ---------------------------
 CountriesInfo
 Country: Papua New Guinea
-Capital: [Port Moresby]
+Capital: Port Moresby
 Currency: Papua New Guinean kina
-Continents: [Oceania]
+Continents: Oceania
 Population: 8947027
 ---------------------------
 CountriesInfo
 Country: Dominica
-Capital: [Roseau]
+Capital: Roseau
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 71991
 ---------------------------
 CountriesInfo
 Country: Liechtenstein
-Capital: [Vaduz]
+Capital: Vaduz
 Currency: Swiss franc
-Continents: [Europe]
+Continents: Europe
 Population: 38137
 ---------------------------
 CountriesInfo
 Country: Russia
-Capital: [Moscow]
+Capital: Moscow
 Currency: Russian ruble
-Continents: [Europe, Asia]
+Continents: Europe, Asia
 Population: 144104080
 ---------------------------
 CountriesInfo
 Country: Israel
-Capital: [Jerusalem]
+Capital: Jerusalem
 Currency: Israeli new shekel
-Continents: [Asia]
+Continents: Asia
 Population: 9216900
 ---------------------------
 CountriesInfo
 Country: Singapore
-Capital: [Singapore]
+Capital: Singapore
 Currency: Singapore dollar
-Continents: [Asia]
+Continents: Asia
 Population: 5685807
 ---------------------------
 CountriesInfo
 Country: Uganda
-Capital: [Kampala]
+Capital: Kampala
 Currency: Ugandan shilling
-Continents: [Africa]
+Continents: Africa
 Population: 45741000
 ---------------------------
 CountriesInfo
 Country: Slovakia
-Capital: [Bratislava]
+Capital: Bratislava
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 5458827
 ---------------------------
 CountriesInfo
 Country: Tonga
-Capital: [Nuku'alofa]
+Capital: Nuku'alofa
 Currency: Tongan paʻanga
-Continents: [Oceania]
+Continents: Oceania
 Population: 105697
 ---------------------------
 CountriesInfo
 Country: United Arab Emirates
-Capital: [Abu Dhabi]
+Capital: Abu Dhabi
 Currency: United Arab Emirates dirham
-Continents: [Asia]
+Continents: Asia
 Population: 9890400
 ---------------------------
 CountriesInfo
 Country: Mayotte
-Capital: [Mamoudzou]
+Capital: Mamoudzou
 Currency: Euro
-Continents: [Africa]
+Continents: Africa
 Population: 226915
 ---------------------------
 CountriesInfo
 Country: Suriname
-Capital: [Paramaribo]
+Capital: Paramaribo
 Currency: Surinamese dollar
-Continents: [South America]
+Continents: South America
 Population: 586634
 ---------------------------
 CountriesInfo
 Country: Uzbekistan
-Capital: [Tashkent]
+Capital: Tashkent
 Currency: Uzbekistani soʻm
-Continents: [Asia]
+Continents: Asia
 Population: 34232050
 ---------------------------
 CountriesInfo
 Country: Saudi Arabia
-Capital: [Riyadh]
+Capital: Riyadh
 Currency: Saudi riyal
-Continents: [Asia]
+Continents: Asia
 Population: 34813867
 ---------------------------
 CountriesInfo
 Country: Egypt
-Capital: [Cairo]
+Capital: Cairo
 Currency: Egyptian pound
-Continents: [Africa]
+Continents: Africa
 Population: 102334403
 ---------------------------
 CountriesInfo
 Country: Italy
-Capital: [Rome]
+Capital: Rome
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 59554023
 ---------------------------
 CountriesInfo
 Country: Madagascar
-Capital: [Antananarivo]
+Capital: Antananarivo
 Currency: Malagasy ariary
-Continents: [Africa]
+Continents: Africa
 Population: 27691019
 ---------------------------
 CountriesInfo
 Country: New Caledonia
-Capital: [Nouméa]
+Capital: Nouméa
 Currency: CFP franc
-Continents: [Oceania]
+Continents: Oceania
 Population: 271960
 ---------------------------
 CountriesInfo
 Country: Canada
-Capital: [Ottawa]
+Capital: Ottawa
 Currency: Canadian dollar
-Continents: [North America]
+Continents: North America
 Population: 38005238
 ---------------------------
 CountriesInfo
 Country: United States Virgin Islands
-Capital: [Charlotte Amalie]
+Capital: Charlotte Amalie
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 106290
 ---------------------------
 CountriesInfo
 Country: Marshall Islands
-Capital: [Majuro]
+Capital: Majuro
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 59194
 ---------------------------
 CountriesInfo
 Country: Mauritania
-Capital: [Nouakchott]
+Capital: Nouakchott
 Currency: Mauritanian ouguiya
-Continents: [Africa]
+Continents: Africa
 Population: 4649660
 ---------------------------
 CountriesInfo
 Country: Gambia
-Capital: [Banjul]
+Capital: Banjul
 Currency: dalasi
-Continents: [Africa]
+Continents: Africa
 Population: 2416664
 ---------------------------
 CountriesInfo
 Country: Trinidad and Tobago
-Capital: [Port of Spain]
+Capital: Port of Spain
 Currency: Trinidad and Tobago dollar
-Continents: [North America]
+Continents: North America
 Population: 1399491
 ---------------------------
 CountriesInfo
 Country: Seychelles
-Capital: [Victoria]
+Capital: Victoria
 Currency: Seychellois rupee
-Continents: [Africa]
+Continents: Africa
 Population: 98462
 ---------------------------
 CountriesInfo
 Country: Japan
-Capital: [Tokyo]
+Capital: Tokyo
 Currency: Japanese yen
-Continents: [Asia]
+Continents: Asia
 Population: 125836021
 ---------------------------
 CountriesInfo
 Country: Brazil
-Capital: [Brasília]
+Capital: Brasília
 Currency: Brazilian real
-Continents: [South America]
+Continents: South America
 Population: 212559409
 ---------------------------
 CountriesInfo
 Country: Syria
-Capital: [Damascus]
+Capital: Damascus
 Currency: Syrian pound
-Continents: [Asia]
+Continents: Asia
 Population: 17500657
 ---------------------------
 CountriesInfo
 Country: Saint Helena, Ascension and Tristan da Cunha
-Capital: [Jamestown]
+Capital: Jamestown
 Currency: Pound sterling, Saint Helena pound
-Continents: [Africa]
+Continents: Africa
 Population: 53192
 ---------------------------
 CountriesInfo
 Country: Tanzania
-Capital: [Dodoma]
+Capital: Dodoma
 Currency: Tanzanian shilling
-Continents: [Africa]
+Continents: Africa
 Population: 59734213
 ---------------------------
 CountriesInfo
 Country: Andorra
-Capital: [Andorra la Vella]
+Capital: Andorra la Vella
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 77265
 ---------------------------
 CountriesInfo
 Country: Iran
-Capital: [Tehran]
+Capital: Tehran
 Currency: Iranian rial
-Continents: [Asia]
+Continents: Asia
 Population: 83992953
 ---------------------------
 CountriesInfo
 Country: Togo
-Capital: [Lomé]
+Capital: Lomé
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 8278737
 ---------------------------
 CountriesInfo
 Country: Malta
-Capital: [Valletta]
+Capital: Valletta
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 525285
 ---------------------------
 CountriesInfo
 Country: South Korea
-Capital: [Seoul]
+Capital: Seoul
 Currency: South Korean won
-Continents: [Asia]
+Continents: Asia
 Population: 51780579
 ---------------------------
 CountriesInfo
 Country: Samoa
-Capital: [Apia]
+Capital: Apia
 Currency: Samoan tālā
-Continents: [Oceania]
+Continents: Oceania
 Population: 198410
 ---------------------------
 CountriesInfo
 Country: Germany
-Capital: [Berlin]
+Capital: Berlin
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 83240525
 ---------------------------
 CountriesInfo
 Country: Niger
-Capital: [Niamey]
+Capital: Niamey
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 24206636
 ---------------------------
 CountriesInfo
 Country: Bouvet Island
-Capital: []
+Capital: Not available
 Currency: Not available
-Continents: [Antarctica]
+Continents: Antarctica
 Population: 0
 ---------------------------
 CountriesInfo
 Country: Jamaica
-Capital: [Kingston]
+Capital: Kingston
 Currency: Jamaican dollar
-Continents: [North America]
+Continents: North America
 Population: 2961161
 ---------------------------
 CountriesInfo
 Country: Nicaragua
-Capital: [Managua]
+Capital: Managua
 Currency: Nicaraguan córdoba
-Continents: [North America]
+Continents: North America
 Population: 6624554
 ---------------------------
 CountriesInfo
 Country: Guinea
-Capital: [Conakry]
+Capital: Conakry
 Currency: Guinean franc
-Continents: [Africa]
+Continents: Africa
 Population: 13132792
 ---------------------------
 CountriesInfo
 Country: Anguilla
-Capital: [The Valley]
+Capital: The Valley
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 13452
 ---------------------------
 CountriesInfo
 Country: Åland Islands
-Capital: [Mariehamn]
+Capital: Mariehamn
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 29458
 ---------------------------
 CountriesInfo
 Country: Belgium
-Capital: [Brussels]
+Capital: Brussels
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 11555997
 ---------------------------
 CountriesInfo
 Country: Portugal
-Capital: [Lisbon]
+Capital: Lisbon
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 10305564
 ---------------------------
 CountriesInfo
 Country: Denmark
-Capital: [Copenhagen]
+Capital: Copenhagen
 Currency: Danish krone
-Continents: [Europe]
+Continents: Europe
 Population: 5831404
 ---------------------------
 CountriesInfo
 Country: Philippines
-Capital: [Manila]
+Capital: Manila
 Currency: Philippine peso
-Continents: [Asia]
+Continents: Asia
 Population: 109581085
 ---------------------------
 CountriesInfo
 Country: Wallis and Futuna
-Capital: [Mata-Utu]
+Capital: Mata-Utu
 Currency: CFP franc
-Continents: [Oceania]
+Continents: Oceania
 Population: 11750
 ---------------------------
 CountriesInfo
 Country: Austria
-Capital: [Vienna]
+Capital: Vienna
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 8917205
 ---------------------------
 CountriesInfo
 Country: Guinea-Bissau
-Capital: [Bissau]
+Capital: Bissau
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 1967998
 ---------------------------
 CountriesInfo
 Country: Monaco
-Capital: [Monaco]
+Capital: Monaco
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 39244
 ---------------------------
 CountriesInfo
 Country: Namibia
-Capital: [Windhoek]
+Capital: Windhoek
 Currency: Namibian dollar, South African rand
-Continents: [Africa]
+Continents: Africa
 Population: 2540916
 ---------------------------
 CountriesInfo
 Country: United States Minor Outlying Islands
-Capital: [Washington DC]
+Capital: Washington DC
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 300
 ---------------------------
 CountriesInfo
 Country: Costa Rica
-Capital: [San José]
+Capital: San José
 Currency: Costa Rican colón
-Continents: [North America]
+Continents: North America
 Population: 5094114
 ---------------------------
 CountriesInfo
 Country: Bosnia and Herzegovina
-Capital: [Sarajevo]
+Capital: Sarajevo
 Currency: Bosnia and Herzegovina convertible mark
-Continents: [Europe]
+Continents: Europe
 Population: 3280815
 ---------------------------
 CountriesInfo
 Country: Macau
-Capital: []
+Capital: Not available
 Currency: Macanese pataca
-Continents: [Asia]
+Continents: Asia
 Population: 649342
 ---------------------------
 CountriesInfo
 Country: Mozambique
-Capital: [Maputo]
+Capital: Maputo
 Currency: Mozambican metical
-Continents: [Africa]
+Continents: Africa
 Population: 31255435
 ---------------------------
 CountriesInfo
 Country: Réunion
-Capital: [Saint-Denis]
+Capital: Saint-Denis
 Currency: Euro
-Continents: [Africa]
+Continents: Africa
 Population: 840974
 ---------------------------
 CountriesInfo
 Country: Montenegro
-Capital: [Podgorica]
+Capital: Podgorica
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 621718
 ---------------------------
 CountriesInfo
 Country: North Korea
-Capital: [Pyongyang]
+Capital: Pyongyang
 Currency: North Korean won
-Continents: [Asia]
+Continents: Asia
 Population: 25778815
 ---------------------------
 CountriesInfo
 Country: Northern Mariana Islands
-Capital: [Saipan]
+Capital: Saipan
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 57557
 ---------------------------
 CountriesInfo
 Country: Ukraine
-Capital: [Kyiv]
+Capital: Kyiv
 Currency: Ukrainian hryvnia
-Continents: [Europe]
+Continents: Europe
 Population: 44134693
 ---------------------------
 CountriesInfo
 Country: Iraq
-Capital: [Baghdad]
+Capital: Baghdad
 Currency: Iraqi dinar
-Continents: [Asia]
+Continents: Asia
 Population: 40222503
 ---------------------------
 CountriesInfo
 Country: South Georgia
-Capital: [King Edward Point]
+Capital: King Edward Point
 Currency: Saint Helena pound
-Continents: [Antarctica]
+Continents: Antarctica
 Population: 30
 ---------------------------
 CountriesInfo
 Country: Angola
-Capital: [Luanda]
+Capital: Luanda
 Currency: Angolan kwanza
-Continents: [Africa]
+Continents: Africa
 Population: 32866268
 ---------------------------
 CountriesInfo
 Country: Sierra Leone
-Capital: [Freetown]
+Capital: Freetown
 Currency: Sierra Leonean leone
-Continents: [Africa]
+Continents: Africa
 Population: 7976985
 ---------------------------
 CountriesInfo
 Country: Micronesia
-Capital: [Palikir]
+Capital: Palikir
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 115021
 ---------------------------
 CountriesInfo
 Country: Cuba
-Capital: [Havana]
+Capital: Havana
 Currency: Cuban convertible peso, Cuban peso
-Continents: [North America]
+Continents: North America
 Population: 11326616
 ---------------------------
 CountriesInfo
 Country: Turks and Caicos Islands
-Capital: [Cockburn Town]
+Capital: Cockburn Town
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 38718
 ---------------------------
 CountriesInfo
 Country: Serbia
-Capital: [Belgrade]
+Capital: Belgrade
 Currency: Serbian dinar
-Continents: [Europe]
+Continents: Europe
 Population: 6908224
 ---------------------------
 CountriesInfo
 Country: Ecuador
-Capital: [Quito]
+Capital: Quito
 Currency: United States dollar
-Continents: [South America]
+Continents: South America
 Population: 17643060
 ---------------------------
 CountriesInfo
 Country: Faroe Islands
-Capital: [Tórshavn]
+Capital: Tórshavn
 Currency: Danish krone, Faroese króna
-Continents: [Europe]
+Continents: Europe
 Population: 48865
 ---------------------------
 CountriesInfo
 Country: Antarctica
-Capital: []
+Capital: Not available
 Currency: Not available
-Continents: [Antarctica]
+Continents: Antarctica
 Population: 1000
 ---------------------------
 CountriesInfo
 Country: Palestine
-Capital: [Ramallah, Jerusalem]
+Capital: Ramallah, Jerusalem
 Currency: Egyptian pound, Israeli new shekel, Jordanian dinar
-Continents: [Asia]
+Continents: Asia
 Population: 4803269
 ---------------------------
 CountriesInfo
 Country: Turkey
-Capital: [Ankara]
+Capital: Ankara
 Currency: Turkish lira
-Continents: [Europe, Asia]
+Continents: Europe, Asia
 Population: 84339067
 ---------------------------
 CountriesInfo
 Country: Kiribati
-Capital: [South Tarawa]
+Capital: South Tarawa
 Currency: Australian dollar, Kiribati dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 119446
 ---------------------------
 CountriesInfo
 Country: Kazakhstan
-Capital: [Nur-Sultan]
+Capital: Nur-Sultan
 Currency: Kazakhstani tenge
-Continents: [Asia]
+Continents: Asia
 Population: 18754440
 ---------------------------
 CountriesInfo
 Country: Gibraltar
-Capital: [Gibraltar]
+Capital: Gibraltar
 Currency: Gibraltar pound
-Continents: [Europe]
+Continents: Europe
 Population: 33691
 ---------------------------
 CountriesInfo
 Country: Iceland
-Capital: [Reykjavik]
+Capital: Reykjavik
 Currency: Icelandic króna
-Continents: [Europe]
+Continents: Europe
 Population: 366425
 ---------------------------
 CountriesInfo
 Country: Palau
-Capital: [Ngerulmud]
+Capital: Ngerulmud
 Currency: United States dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 18092
 ---------------------------
 CountriesInfo
 Country: Qatar
-Capital: [Doha]
+Capital: Doha
 Currency: Qatari riyal
-Continents: [Asia]
+Continents: Asia
 Population: 2881060
 ---------------------------
 CountriesInfo
 Country: Switzerland
-Capital: [Bern]
+Capital: Bern
 Currency: Swiss franc
-Continents: [Europe]
+Continents: Europe
 Population: 8654622
 ---------------------------
 CountriesInfo
 Country: French Polynesia
-Capital: [Papeetē]
+Capital: Papeetē
 Currency: CFP franc
-Continents: [Oceania]
+Continents: Oceania
 Population: 280904
 ---------------------------
 CountriesInfo
 Country: Pitcairn Islands
-Capital: [Adamstown]
+Capital: Adamstown
 Currency: New Zealand dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 56
 ---------------------------
 CountriesInfo
 Country: Jordan
-Capital: [Amman]
+Capital: Amman
 Currency: Jordanian dinar
-Continents: [Asia]
+Continents: Asia
 Population: 10203140
 ---------------------------
 CountriesInfo
 Country: Myanmar
-Capital: [Naypyidaw]
+Capital: Naypyidaw
 Currency: Burmese kyat
-Continents: [Asia]
+Continents: Asia
 Population: 54409794
 ---------------------------
 CountriesInfo
 Country: Thailand
-Capital: [Bangkok]
+Capital: Bangkok
 Currency: Thai baht
-Continents: [Asia]
+Continents: Asia
 Population: 69799978
 ---------------------------
 CountriesInfo
 Country: Caribbean Netherlands
-Capital: [Kralendijk]
+Capital: Kralendijk
 Currency: United States dollar
-Continents: [North America]
+Continents: North America
 Population: 25987
 ---------------------------
 CountriesInfo
 Country: Aruba
-Capital: [Oranjestad]
+Capital: Oranjestad
 Currency: Aruban florin
-Continents: [North America]
+Continents: North America
 Population: 106766
 ---------------------------
 CountriesInfo
 Country: Guadeloupe
-Capital: [Basse-Terre]
+Capital: Basse-Terre
 Currency: Euro
-Continents: [North America]
+Continents: North America
 Population: 400132
 ---------------------------
 CountriesInfo
 Country: Nigeria
-Capital: [Abuja]
+Capital: Abuja
 Currency: Nigerian naira
-Continents: [Africa]
+Continents: Africa
 Population: 206139587
 ---------------------------
 CountriesInfo
 Country: Bahrain
-Capital: [Manama]
+Capital: Manama
 Currency: Bahraini dinar
-Continents: [Asia]
+Continents: Asia
 Population: 1701583
 ---------------------------
 CountriesInfo
 Country: Laos
-Capital: [Vientiane]
+Capital: Vientiane
 Currency: Lao kip
-Continents: [Asia]
+Continents: Asia
 Population: 7275556
 ---------------------------
 CountriesInfo
 Country: Cocos (Keeling) Islands
-Capital: [West Island]
+Capital: West Island
 Currency: Australian dollar
-Continents: [Asia]
+Continents: Asia
 Population: 544
 ---------------------------
 CountriesInfo
 Country: Djibouti
-Capital: [Djibouti]
+Capital: Djibouti
 Currency: Djiboutian franc
-Continents: [Africa]
+Continents: Africa
 Population: 988002
 ---------------------------
 CountriesInfo
 Country: Solomon Islands
-Capital: [Honiara]
+Capital: Honiara
 Currency: Solomon Islands dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 686878
 ---------------------------
 CountriesInfo
 Country: Heard Island and McDonald Islands
-Capital: []
+Capital: Not available
 Currency: Not available
-Continents: [Antarctica]
+Continents: Antarctica
 Population: 0
 ---------------------------
 CountriesInfo
 Country: India
-Capital: [New Delhi]
+Capital: New Delhi
 Currency: Indian rupee
-Continents: [Asia]
+Continents: Asia
 Population: 1380004385
 ---------------------------
 CountriesInfo
 Country: San Marino
-Capital: [City of San Marino]
+Capital: City of San Marino
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 33938
 ---------------------------
 CountriesInfo
 Country: Luxembourg
-Capital: [Luxembourg]
+Capital: Luxembourg
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 632275
 ---------------------------
 CountriesInfo
 Country: Sint Maarten
-Capital: [Philipsburg]
+Capital: Philipsburg
 Currency: Netherlands Antillean guilder
-Continents: [North America]
+Continents: North America
 Population: 40812
 ---------------------------
 CountriesInfo
 Country: Falkland Islands
-Capital: [Stanley]
+Capital: Stanley
 Currency: Falkland Islands pound
-Continents: [South America]
+Continents: South America
 Population: 2563
 ---------------------------
 CountriesInfo
 Country: Central African Republic
-Capital: [Bangui]
+Capital: Bangui
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 4829764
 ---------------------------
 CountriesInfo
 Country: Botswana
-Capital: [Gaborone]
+Capital: Gaborone
 Currency: Botswana pula
-Continents: [Africa]
+Continents: Africa
 Population: 2351625
 ---------------------------
 CountriesInfo
 Country: Curaçao
-Capital: [Willemstad]
+Capital: Willemstad
 Currency: Netherlands Antillean guilder
-Continents: [North America]
+Continents: North America
 Population: 155014
 ---------------------------
 CountriesInfo
 Country: Guernsey
-Capital: [St. Peter Port]
+Capital: St. Peter Port
 Currency: British pound, Guernsey pound
-Continents: [Europe]
+Continents: Europe
 Population: 62999
 ---------------------------
 CountriesInfo
 Country: Norway
-Capital: [Oslo]
+Capital: Oslo
 Currency: Norwegian krone
-Continents: [Europe]
+Continents: Europe
 Population: 5379475
 ---------------------------
 CountriesInfo
 Country: Gabon
-Capital: [Libreville]
+Capital: Libreville
 Currency: Central African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 2225728
 ---------------------------
 CountriesInfo
 Country: Zimbabwe
-Capital: [Harare]
+Capital: Harare
 Currency: Zimbabwean dollar
-Continents: [Africa]
+Continents: Africa
 Population: 14862927
 ---------------------------
 CountriesInfo
 Country: Lesotho
-Capital: [Maseru]
+Capital: Maseru
 Currency: Lesotho loti, South African rand
-Continents: [Africa]
+Continents: Africa
 Population: 2142252
 ---------------------------
 CountriesInfo
 Country: Slovenia
-Capital: [Ljubljana]
+Capital: Ljubljana
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 2100126
 ---------------------------
 CountriesInfo
 Country: Argentina
-Capital: [Buenos Aires]
+Capital: Buenos Aires
 Currency: Argentine peso
-Continents: [South America]
+Continents: South America
 Population: 45376763
 ---------------------------
 CountriesInfo
 Country: Burkina Faso
-Capital: [Ouagadougou]
+Capital: Ouagadougou
 Currency: West African CFA franc
-Continents: [Africa]
+Continents: Africa
 Population: 20903278
 ---------------------------
 CountriesInfo
 Country: Yemen
-Capital: [Sana'a]
+Capital: Sana'a
 Currency: Yemeni rial
-Continents: [Asia]
+Continents: Asia
 Population: 29825968
 ---------------------------
 CountriesInfo
 Country: DR Congo
-Capital: [Kinshasa]
+Capital: Kinshasa
 Currency: Congolese franc
-Continents: [Africa]
+Continents: Africa
 Population: 108407721
 ---------------------------
 CountriesInfo
 Country: Oman
-Capital: [Muscat]
+Capital: Muscat
 Currency: Omani rial
-Continents: [Asia]
+Continents: Asia
 Population: 5106622
 ---------------------------
 CountriesInfo
 Country: Indonesia
-Capital: [Jakarta]
+Capital: Jakarta
 Currency: Indonesian rupiah
-Continents: [Asia]
+Continents: Asia
 Population: 273523621
 ---------------------------
 CountriesInfo
 Country: Nauru
-Capital: [Yaren]
+Capital: Yaren
 Currency: Australian dollar
-Continents: [Oceania]
+Continents: Oceania
 Population: 10834
 ---------------------------
 CountriesInfo
 Country: Rwanda
-Capital: [Kigali]
+Capital: Kigali
 Currency: Rwandan franc
-Continents: [Africa]
+Continents: Africa
 Population: 12952209
 ---------------------------
 CountriesInfo
 Country: North Macedonia
-Capital: [Skopje]
+Capital: Skopje
 Currency: denar
-Continents: [Europe]
+Continents: Europe
 Population: 2077132
 ---------------------------
 CountriesInfo
 Country: Kosovo
-Capital: [Pristina]
+Capital: Pristina
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 1775378
 ---------------------------
 CountriesInfo
 Country: Netherlands
-Capital: [Amsterdam]
+Capital: Amsterdam
 Currency: Euro
-Continents: [Europe]
+Continents: Europe
 Population: 16655799
 ---------------------------
 CountriesInfo
 Country: Tunisia
-Capital: [Tunis]
+Capital: Tunis
 Currency: Tunisian dinar
-Continents: [Africa]
+Continents: Africa
 Population: 11818618
 ---------------------------
 CountriesInfo
 Country: South Sudan
-Capital: [Juba]
+Capital: Juba
 Currency: South Sudanese pound
-Continents: [Africa]
+Continents: Africa
 Population: 11193729
 ---------------------------
 CountriesInfo
 Country: Honduras
-Capital: [Tegucigalpa]
+Capital: Tegucigalpa
 Currency: Honduran lempira
-Continents: [North America]
+Continents: North America
 Population: 9904608
 ---------------------------
 CountriesInfo
 Country: Saint Vincent and the Grenadines
-Capital: [Kingstown]
+Capital: Kingstown
 Currency: Eastern Caribbean dollar
-Continents: [North America]
+Continents: North America
 Population: 110947
 ---------------------------
 CountriesInfo
 Country: Sri Lanka
-Capital: [Sri Jayawardenepura Kotte]
+Capital: Sri Jayawardenepura Kotte
 Currency: Sri Lankan rupee
-Continents: [Asia]
+Continents: Asia
 Population: 21919000
 ---------------------------
 CountriesInfo
 Country: Hong Kong
-Capital: [City of Victoria]
+Capital: City of Victoria
 Currency: Hong Kong dollar
-Continents: [Asia]
+Continents: Asia
 Population: 7500700
 ---------------------------
 ]]></system-out>

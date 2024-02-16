@@ -20,9 +20,8 @@ public class countryInfo {
     private List<String> continents;
     private List<Currency> currencies;
 
-    
 
-    @JsonProperty("name")
+	@JsonProperty("name")
     public void unpackNestedName(Map<String, Object> name) {
         this.name = (String)name.get("common");
     }
@@ -131,7 +130,9 @@ public class countryInfo {
 	
 	
 	
-	   private String formatCurrencies() {
+
+
+	private String formatCurrencies() {
 	        if (currencies == null || currencies.isEmpty()) {
 	            return "Not available";
 	        }

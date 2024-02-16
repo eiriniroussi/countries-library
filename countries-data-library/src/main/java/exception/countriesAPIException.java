@@ -27,7 +27,4 @@ public class countriesAPIException extends Exception{
 	}
 	
 	
-	
-	
-	
 }

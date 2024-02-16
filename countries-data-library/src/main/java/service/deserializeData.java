@@ -8,9 +8,7 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import exception.countriesAPIException;
 import model.countryInfo;
 import countryAPI.CountryAPI;
