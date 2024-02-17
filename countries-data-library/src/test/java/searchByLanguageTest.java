@@ -9,7 +9,9 @@ import model.countryInfo;
 import service.deserializeData;
 
 public class searchByLanguageTest {
-
+	
+	
+	//A Junit test for ensuring the method getCountryByLang is fetching and showing correctly data
 	@Test
 	public void testSearchByLanguage() throws URISyntaxException {
         deserializeData deserializer = new deserializeData("https://restcountries.com");

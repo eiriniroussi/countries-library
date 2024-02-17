@@ -21,6 +21,7 @@ public class deserializeData {
 
 		private String API_URL;
 		
+		//pass the domain from the CountryAPI class
 		public deserializeData(String API_URL) {
 			this.API_URL = CountryAPI.getApiUrl();
 
@@ -151,7 +152,6 @@ public class deserializeData {
 					
 					try(CloseableHttpResponse httpResponse = httpClient.execute(getRequest)) {
 						final HttpEntity entity = httpResponse.getEntity();
-						//String jsonResponse = httpClient.execute(getRequest, httpResponse -> EntityUtils.toString(httpResponse.getEntity())).toString();
 						ObjectMapper mapper = new ObjectMapper();
 						int statusCode = httpResponse.getStatusLine().getStatusCode();
 						if (statusCode != HttpStatus.SC_OK) {

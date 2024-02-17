@@ -20,12 +20,13 @@ public class countryInfo {
     private List<String> continents;
     private List<Currency> currencies;
 
-
+    //When Jackson encounters the "name" property in the JSON (coming from the API), it will invoke this method, passing the value of the "name" property as a Map<String, Object>.
 	@JsonProperty("name")
     public void unpackNestedName(Map<String, Object> name) {
-        this.name = (String)name.get("common");
+        this.name = (String)name.get("common");//extracts the value associated with "common" from the map and assigning it to the name field of this class.
     }
 
+	//currenciesMap is expected to be a map where each key is a currency code, and its value is another map containing details about the currency.
     @JsonProperty("currencies")
     public void unpackNestedCurrencies(Map<String, Map<String, String>> currenciesMap) {
         this.currencies = new ArrayList<>();
@@ -40,7 +41,7 @@ public class countryInfo {
         }
     }
     
-	   
+	//Getters and setters  
 	public String getFormattedCurrencies() {
 		return formatCurrencies();
 	}
@@ -131,7 +132,7 @@ public class countryInfo {
 	
 	
 
-
+	//A method for formatting the currencies
 	private String formatCurrencies() {
 	        if (currencies == null || currencies.isEmpty()) {
 	            return "Not available";
@@ -144,7 +145,7 @@ public class countryInfo {
 	        return sb.toString();
 	    }
 	   
-	   
+	//A method for returning strings from a list of strings separated by a comma | used for the continents and the capitals
 	   private String listToString(List<String> list) {
 	        if (list == null || list.isEmpty()) {
 	            return "Not available";

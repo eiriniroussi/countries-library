@@ -9,13 +9,15 @@ import model.countryInfo;
 import service.deserializeData;
 
 public class searchByNameTest {
-
+	
+	
+	//A Junit test for ensuring the method getCountryByName is fetching and showing correctly data
 	@Test
 	public void testSearchByName() throws URISyntaxException {
 		deserializeData deserializer = new deserializeData("https://restcountries.com"); 
         try {
             countryInfo[] countries = null;
-			countries = deserializer.getCountryByLang("name","Italy");
+			countries = deserializer.getCountryByName("name","Italy");
             assertNotNull("Countries list should not be null", countries);
         } catch (countriesAPIException e) {
             fail("Exception should not be thrown: " + e.getMessage());
